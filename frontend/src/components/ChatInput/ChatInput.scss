@@ -1,0 +1,20 @@
+.ChatInput {
+    width: 95%;
+    position: absolute;
+    display: block;
+    margin: 10px auto 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    input {
+        padding: 10px;
+        margin: 0;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        border: 1px solid rgba($color: #000000, $alpha: 0.1);
+        width: 98%;
+        box-shadow: 0 5px 15px -5px rgba($color: #000000, $alpha: 0.1);
+    }
+}
