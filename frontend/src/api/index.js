@@ -1,4 +1,5 @@
-var socket = new WebSocket("ws://localhost:8080/ws");
+const BACKEND_URI = process.env.BACKEND_URI | "localhost:8080"
+var socket = new WebSocket(`ws://${BACKEND_URI}/ws`);
 
 let connect = (cb) => {
   console.log("connecting...");
